@@ -27,7 +27,7 @@ if ('${settings.ls-addon:false}'== 'true') {
   resp.nodes.push({
     nodeType: "lemp",
     engine: "${settings.php_engine:php8.2}",
-    tag: 1.24.0-php-8.2.7-almalinux-9,
+    tag: "1.24.0-php-8.2.7-almalinux-9",
     count: 1,
     flexibleCloudlets: ${settings.flexibleCloudlets:16},
     fixedCloudlets: ${settings.fixedCloudlets:1},
